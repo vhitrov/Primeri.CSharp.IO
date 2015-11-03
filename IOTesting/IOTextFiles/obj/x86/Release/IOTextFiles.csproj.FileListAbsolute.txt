@@ -1,0 +1,4 @@
+D:\aula\primeri.csharp.IO\IOTesting\IOTextFiles\bin\Release\IOTextFiles.exe
+D:\aula\primeri.csharp.IO\IOTesting\IOTextFiles\bin\Release\IOTextFiles.pdb
+D:\aula\primeri.csharp.IO\IOTesting\IOTextFiles\obj\x86\Release\IOTextFiles.exe
+D:\aula\primeri.csharp.IO\IOTesting\IOTextFiles\obj\x86\Release\IOTextFiles.pdb

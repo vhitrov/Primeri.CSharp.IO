@@ -1,0 +1,5 @@
+D:\aula\primeri.csharp.IO\IOTesting\IOTextFiles\obj\x86\Debug\IOTextFiles.csprojResolveAssemblyReference.cache
+D:\aula\primeri.csharp.IO\IOTesting\IOTextFiles\bin\Debug\IOTextFiles.exe
+D:\aula\primeri.csharp.IO\IOTesting\IOTextFiles\bin\Debug\IOTextFiles.pdb
+D:\aula\primeri.csharp.IO\IOTesting\IOTextFiles\obj\x86\Debug\IOTextFiles.exe
+D:\aula\primeri.csharp.IO\IOTesting\IOTextFiles\obj\x86\Debug\IOTextFiles.pdb
