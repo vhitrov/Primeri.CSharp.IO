@@ -9,16 +9,18 @@ namespace IOTextFiles
 			STable _STable = new STable ();
 			IOSettings _io = new IOSettings (_STable);
 
+
+
+			if (_io.open()){     //(_io.save ()) {
+				Console.WriteLine ("Таблицата е прочетена успешно.");
+			} else {
+				Console.WriteLine ("Таблицата НЕ е прочетена успешно.");
+			}
+
 			Console.WriteLine (_STable.stable [0]);
 			Console.WriteLine (_STable.stable [1]);
 			Console.WriteLine (_STable.stable [2]);
 			Console.WriteLine (_STable.stable [3]);
-
-			if (_io.save ()) {
-				Console.WriteLine ("Таблицата е запаметена успешно.");
-			} else {
-				Console.WriteLine ("Таблицата НЕ е запаметена успешно.");
-			}
 		}
 	}
 }
