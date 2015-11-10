@@ -47,14 +47,22 @@ namespace IOTextFiles
 		{
 			try
 			{
-				string _temp=System.IO.File.ReadAllText(getPath());
+				string _temp="", _filePath=getPath();
+				if(System.IO.File.Exists(_filePath)) //Проверка дали пътя е валиден
+				{
+					System.IO.File.ReadAllText(_filePath);
 
-				string[] _table = _temp.Replace("\r", "").Split('\n');
-				for(int i=0; i<_table.Length; i++)
+					string[] _table = _temp.Replace("\r", "").Split('\n');
+
+					for(int i=0; i<_table.Length; i++)
 				{
 					_stable.stable[i]=_table[i];
 				}
+				}else{
+					Console.WriteLine("Не е намерен такъв път.");
+					return false;
 
+				}
 				return true;
 
 			} catch{

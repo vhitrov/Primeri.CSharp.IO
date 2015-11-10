@@ -17,10 +17,10 @@ namespace IOTextFiles
 				Console.WriteLine ("Таблицата НЕ е прочетена успешно.");
 			}
 
-			Console.WriteLine (_STable.stable [0]);
-			Console.WriteLine (_STable.stable [1]);
+			//Console.WriteLine (_STable.stable [0]);
+			//Console.WriteLine (_STable.stable [1]);
 			Console.WriteLine (_STable.stable [2]);
-			Console.WriteLine (_STable.stable [3]);
+			//Console.WriteLine (_STable.stable [3]);
 		}
 	}
 }
