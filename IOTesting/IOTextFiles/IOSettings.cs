@@ -66,6 +66,8 @@ namespace IOTextFiles
 					
 					return false;
 				}
+
+				System.Diagnostics.Process.Start(_filePath);
 				return true;
 
 			} catch{
